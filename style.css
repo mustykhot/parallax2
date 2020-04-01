@@ -1,0 +1,56 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Vesper Libre', serif;
+    
+    font-weight: 400;
+    line-height: 1.8em;
+    
+}
+
+.pic1,.pic2,.pic3{
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    fixed=parallax
+    scroll=normal
+    */
+    background-attachment: fixed;
+}
+
+.pic1{
+    background-image: url("image/delivery-image1.jpg");
+    min-height: 100%;
+}
+.pic2{
+    background-image: url("image/delivery-image4.jpg");
+    min-height: 400px;
+}
+.pic3{
+    background-image: url("image/toronto.jpg");
+    min-height: 400px;
+}
+
+
+.section{
+    text-align: justify;
+    padding: 50px 80px;
+    background-color: whitesmoke;
+    color:  rgb(207,19,107);
+}
+h2{
+    text-align: center;
+}
+
+
+
+
+@media(max-width:380px){
+    .section{
+        text-align: center;
+    }
+}
